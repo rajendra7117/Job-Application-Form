@@ -1,0 +1,30 @@
+.experience-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.experience-form button{
+        background-color: #000;
+        border: 1px solid #000;
+        color: #fff;
+        padding: .3rem;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 90%;
+        align-self: flex-start;
+        margin-top: 0.6rem;
+}
+.common{
+    border: 1px solid #FC345C !important;
+}
+.highlight{
+    border: 1px solid #FC345C !important;
+}
+.exp-alert{
+    align-self:flex-start;
+    margin-top: 1rem;
+    margin-left: .2rem;
+    width: 90%;
+    
+}

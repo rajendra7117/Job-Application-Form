@@ -1,0 +1,14 @@
+.items{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-around;
+}
+.items div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.items div:nth-child(2){
+    align-self: flex-end;
+}

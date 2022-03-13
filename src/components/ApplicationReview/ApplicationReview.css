@@ -1,0 +1,17 @@
+.review-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.review-form button{
+    background-color: #65C18C;
+    color: #fff;
+    font-size: larger;
+    padding: .4rem;
+    border: 1px solid #65C18C;
+    border-radius: 4px;
+    outline: none;
+}

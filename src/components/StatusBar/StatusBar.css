@@ -1,0 +1,41 @@
+.status-bar{
+    width:auto;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.status-bar div:nth-child(odd){
+    width: 4rem;
+    border-bottom: 2px solid #F6F6F6;
+}
+.status-bar div:nth-child(even){
+    width: 8rem;
+    border: 1px solid #F6F6F6;
+    border-radius: 1rem;
+    padding: .4rem;
+    background-color: #F6F6F6;
+}
+
+.status-bar .bar.completed{
+    border-bottom: 2px solid #54E346;
+}
+
+
+.status-bar .account.completed{
+    border: 1px solid #54E346;
+    background-color: #54E346;
+    color: #fff;
+}
+
+@media screen and (max-width: 530px) {
+        .status-bar div:nth-child(even){
+            width: auto;
+            height: 5rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+}

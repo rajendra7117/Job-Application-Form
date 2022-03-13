@@ -1,0 +1,13 @@
+.card{
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(197, 184, 184);
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 520px){
+    .card{
+        width: 20rem;
+    }
+}

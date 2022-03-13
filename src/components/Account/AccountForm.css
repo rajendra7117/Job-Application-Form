@@ -1,0 +1,25 @@
+.form-container{
+    width: 27rem !important;
+    margin-top: 3rem;
+    height: 34rem !important;
+    border: 2px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem;
+    
+
+}
+.application-form{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+
+}
+.application-form div{
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+.btn-success{
+    width: 16rem;
+}

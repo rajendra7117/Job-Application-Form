@@ -1,0 +1,18 @@
+.education-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.eduction-btn{
+    margin-top: 1rem;
+    align-self: flex-start;
+    width: 90%;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    padding: .4rem;
+    border: 1px solid #000;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }

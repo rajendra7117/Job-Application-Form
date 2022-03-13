@@ -1,0 +1,25 @@
+.skill-div{
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.skill{
+    width: 13rem;
+    height: 2.2rem;
+    background-color: #019875;
+    color: #fff;
+    padding: .4rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+
+}
+.skill-div svg{
+    font-size: 2.5rem;
+    color: #E83A14;
+    cursor: pointer;
+}
